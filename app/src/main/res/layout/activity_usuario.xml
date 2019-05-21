@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    tools:context="com.example.myapplication.Usuario">
+
+    <ImageView
+        android:id="@+id/Imagen"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/logo1"/>
+
+    <Button
+        android:id="@+id/Btn_registrarv"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_fondo_color"
+        android:elevation="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/Imagen"
+        android:text="ingresar vehiculo"
+        android:onClick="Registrarv"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/Btn_retirarv"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_fondo_color"
+        android:elevation="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/Imagen"
+        android:text="Retirar vehiculo"
+        android:onClick="Retirarv"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/Btn_buscarv"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_fondo_color"
+        android:elevation="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/Btn_registrarv"
+        android:text="Buscar vehiculo"
+        android:textColor="#fff"
+        android:onClick="Buscarv"/>
+
+    <Button
+        android:id="@+id/Btn_salir"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_fondo_color"
+        android:elevation="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/Btn_retirarv"
+        android:text="Salir"
+        android:onClick="Salir"
+        android:textColor="#fff" />
+
+</RelativeLayout>

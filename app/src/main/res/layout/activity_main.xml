@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/logo1"/>
+
+    <EditText
+        android:id="@+id/Tv_usu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textColor="#fff"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="250dp"
+        android:textColorHint="#ccc"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/Tv_pas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textColor="#fff"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ccc"
+        android:layout_below="@+id/Tv_usu"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:gravity="end"
+        android:id="@+id/Btn_olvidaste"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="¿Olvidaste tu contraseña?"
+        android:layout_marginTop="0dp"
+        android:elevation="5dp"
+        android:layout_below="@id/Tv_pas"
+        />
+
+    <Button
+        android:id="@+id/Btn_Iniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginVertical="1dp"
+        android:elevation="5dp"
+        android:layout_below="@id/Btn_olvidaste"
+        android:background="@drawable/btn_fondo_color"
+        android:text="Iniciar sesión"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:layout_marginTop="520dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes cuenta?"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:id="@+id/Btn_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:text="Registrarse"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+

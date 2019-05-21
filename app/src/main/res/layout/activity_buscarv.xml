@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    tools:context=".Buscarv">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/logo1"/>
+
+    <EditText
+        android:id="@+id/EditT_buscarv"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:hint="Placa"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:textColorHint="#ccc"
+        android:background="@drawable/input"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Ingrese la placa del vehiculo"
+        android:elevation="5dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/Btn_buscarv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginVertical="75dp"
+        android:elevation="5dp"
+        android:layout_below="@id/EditT_buscarv"
+        android:background="@drawable/btn_fondo_color"
+        android:text="Buscar vehiculo"
+        android:textColor="#fff"
+        />
+
+
+</RelativeLayout>

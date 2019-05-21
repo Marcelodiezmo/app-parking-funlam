@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="btn_Registrar">Anterior</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_registrarv">Registrarv</string>
+    <string name="btn_retirarv">Retirarv</string>
+    <string name="btn_buscarv">Buscarv</string>
+
+
+</resources>
